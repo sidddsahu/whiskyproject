@@ -1,0 +1,523 @@
+
+
+.overlay{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    position: absolute;
+    top: 0;
+    z-index:34556;
+    transform: translateX(100%);
+    transition: 1s ease-in;
+}
+
+
+.left-content{
+    height: 100vh;
+    width: 50vw;
+    background-image: url(Miljöbild-Eiktyrne-Quadruple-Batch-II-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: yellow; */
+}
+
+
+.right-content{
+    position: relative;
+    height: 100vh;
+    width: 50vw;
+      background-color: #F4F1EC;
+}
+
+.d-1{
+    display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin-right: 3vmax;
+   margin-top: 4vmax;
+}
+.d-1 img{
+    margin-left: .5vmax;
+
+}
+
+ .d-1 .box-2{
+    position: relative;
+    height: 15px;
+    width: 50px;
+    /* background-color: red; */
+    overflow: hidden;
+
+}
+.d-1 .text-2{
+    font-family: "mukta";
+    letter-spacing: 1px;
+    font-size: .9vmax;
+    height: 48px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    overflow: hidden;
+    /* background-color: blue;    */
+    transition: 0.3s all ease;
+    font-family: "roboto";
+}
+
+.d-1 .text-2:hover {
+    transform: translateY(-35%);
+}
+
+
+.main-content{
+    height: 80vh;
+   position: absolute;
+   top: 70%;
+   left: 40%;
+   transform: translate(-50%, -50%);
+}
+
+.elem{
+    height: 46px;
+    width: 12vw;
+    /* background-color: red; */
+    /* border-radius: 5px; */
+    /* font-family: "Leiko"; */
+    overflow: hidden;
+    position: relative;
+}
+
+.live h1{
+    font-family: "leiko";
+    /* font-family: "roboto"; */
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.live{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.live img{
+    transition: 0.1s linear;
+    margin-right: .5vmax;
+}
+
+.elem:hover .live img{
+    transform: translateX(15%);
+}
+
+.line-1{
+    height: 1%;
+    border-radius: 5px;
+    background-color: black;
+    left: 0;
+    position: absolute;
+}
+
+.elem:hover .line-1{
+    animation-name: line-ani;
+    animation-duration: 0.8s;
+}
+
+@keyframes line-ani{
+    0%{
+        width: 0;
+        left: 0;
+
+    }
+
+    50%{
+        width: 100%;
+        left: 0;
+    }
+
+    100%{
+        width: 100%;
+        left: 100%;
+    }
+}
+
+
+
+
+
+.elem-1{
+    height: 46px;
+    width: 26vw;
+    /* background-color: red; */
+    /* border-radius: 5px; */
+    /* font-family: "Leiko"; */
+    overflow: hidden;
+    position: relative;
+}
+
+.live-1 h1{
+    font-family: "leiko";
+    font-weight: 500;
+    font-size: rem;
+}
+
+.live-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.live-1 img{
+    transition: 0.1s linear;
+    margin-right: .5vmax;
+}
+
+.elem-1:hover .live-1 img{
+    transform: translateX(15%);
+}
+
+.line-2{
+    height: 1%;
+    border-radius: 5px;
+    background-color: black;
+    left: 0;
+    position: absolute;
+}
+
+.elem-1:hover .line-2{
+    animation-name: line-ani;
+    animation-duration: 0.8s;
+}
+
+@keyframes line-ani{
+    0%{
+        width: 0;
+        left: 0;
+
+    }
+
+    50%{
+        width: 100%;
+        left: 0;
+    }
+
+    100%{
+        width: 100%;
+        left: 100%;
+    }
+}
+
+
+
+
+
+.elem-2{
+    height: 46px;
+    width: 20vw;
+    /* background-color: red; */
+    /* border-radius: 5px; */
+    /* font-family: "Leiko"; */
+    overflow: hidden;
+    position: relative;
+}
+
+.live-2 h1{
+    font-family: "leiko";
+    font-weight: 500;
+    font-size: rem;
+}
+
+.live-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.live-2 img{
+    transition: 0.1s linear;
+    margin-right: .5vmax;
+}
+
+.elem-2:hover .live-2 img{
+    transform: translateX(15%);
+}
+
+.line-3{
+    height: 1%;
+    border-radius: 5px;
+    background-color: black;
+    left: 0;
+    position: absolute;
+}
+
+.elem-2:hover .line-3{
+    animation-name: line-ani;
+    animation-duration: 0.8s;
+}
+
+@keyframes line-ani{
+    0%{
+        width: 0;
+        left: 0;
+
+    }
+
+    50%{
+        width: 100%;
+        left: 0;
+    }
+
+    100%{
+        width: 100%;
+        left: 100%;
+    }
+}
+
+
+
+
+
+.elem-3{
+    height: 57px;
+    width: 19vw;
+    /* background-color: red; */
+    /* border-radius: 5px; */
+    /* font-family: "Leiko"; */
+    overflow: hidden;
+    position: relative;
+}
+
+.live-3 h1{
+    font-family: "leiko";
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.live-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.live-3 img{
+    transition: 0.1s linear;
+    margin-right: .5vmax;
+}
+
+.elem-3:hover .live-3 img{
+    transform: translateX(15%);
+}
+
+.line-4{
+    height: 1%;
+    border-radius: 5px;
+    background-color: black;
+    left: 0;
+    position: absolute;
+}
+
+.elem-3:hover .line-4{
+    animation-name: line-ani;
+    animation-duration: 0.8s;
+}
+
+@keyframes line-ani{
+    0%{
+        width: 0;
+        left: 0;
+
+    }
+
+    50%{
+        width: 100%;
+        left: 0;
+    }
+
+    100%{
+        width: 100%;
+        left: 100%;
+    }
+}
+
+
+
+.elem-4{
+    height: 47px;
+    width: 16vw;
+    /* background-color: red; */
+    /* border-radius: 5px; */
+    /* font-family: "Leiko"; */
+    overflow: hidden;
+    position: relative;
+}
+
+.live-4 h1{
+    font-family: "leiko";
+    font-weight: 500;
+    font-size: rem;
+}
+
+.live-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.live-4 img{
+    transition: 0.1s linear;
+    margin-right: .5vmax;
+}
+
+.elem-4:hover .live-4 img{
+    transform: translateX(15%);
+}
+
+.line-5{
+    height: 3%;
+    border-radius: 5px;
+    background-color: black;
+    left: 0;
+    position: absolute;
+}
+
+.elem-4:hover .line-5{
+    animation-name: line-ani;
+    animation-duration: 0.8s;
+}
+
+@keyframes line-ani{
+    0%{
+        width: 0;
+        left: 0;
+
+    }
+
+    50%{
+        width: 100%;
+        left: 0;
+    }
+
+    100%{
+        width: 100%;
+        left: 100%;
+    }
+}
+
+.d-2{
+    height: 20vh;
+   position: absolute;
+   top: 65%;
+   left: 18%;
+   display: flex;
+   align-items: center;
+   /* justify-content: space-between; */
+   /* margin-right: 2vmax; */
+}
+
+.d-2 .box-2{
+    margin-right: 4vmax;
+    position: relative;
+    height: 27px;
+    width: 70px;
+    /* background-color: red; */
+    overflow: hidden;
+   
+
+}
+.d-2 .text-2{
+    /* margin-right: 2vmax; */
+    font-family: "roboto";
+    letter-spacing: 1px;
+    font-size: .9vmax;
+    height: 57px;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    overflow: hidden;
+    /* background-color: blue;    */
+    transition: 0.3s all ease;
+    font-family: "roboto";
+    font-weight: 500;
+}
+.d-2 .text-2:hover {
+    transform: translateY(-55%);
+}
+
+
+
+
+
+
+
+.d-2 .box-3{
+    margin-right: 4vmax;
+    position: relative;
+    height: 16px;
+    width: 40px;
+    /* background-color: red; */
+    overflow: hidden;
+   
+
+}
+.d-2 .text-3{
+    /* margin-right: 2vmax; */
+    font-family: "roboto";
+    letter-spacing: 1px;
+    font-size: .9vmax;
+    height: 57px;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    overflow: hidden;
+    /* background-color: blue;    */
+    transition: 0.3s all ease;
+    font-family: "roboto";
+    font-weight: 500;
+}
+.d-2 .text-3:hover {
+    transform: translateY(-25%);
+}
+
+
+
+.d-2 .box-4{
+    margin-right: 1vmax;
+    position: relative;
+    height: 16px;
+    width: 110px;
+    /* background-color: red; */
+    overflow: hidden;
+   
+
+}
+.d-2 .text-4{
+    /* margin-right: 2vmax; */
+    font-family: "roboto";
+    letter-spacing: 1px;
+    font-size: .9vmax;
+    height: 57px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    overflow: hidden;
+    /* background-color: blue;    */
+    transition: 0.3s all ease;
+    font-family: "roboto";
+    font-weight: 500;
+}
+.d-2 .text-4:hover {
+    transform: translateY(-25%);
+}
+
+
+
+
